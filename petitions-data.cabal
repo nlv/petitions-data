@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f3625b477d6ce6dd2547652a5cf743ff1851deee6db138d96852a2817436646b
+-- hash: 7a8a6119f39b42ac0b8a9ded92755f4639787362f5908ff0ab36c73b102e03d5
 
 name:           petitions-data
 version:        0.0.0
@@ -12,7 +12,7 @@ build-type:     Simple
 
 library
   exposed-modules:
-      Data
+      Petitions.Data
   other-modules:
       Paths_petitions_data
   hs-source-dirs:

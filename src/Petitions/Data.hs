@@ -3,7 +3,7 @@
 {-# LANGUAGE StandaloneDeriving #-}
 {-# LANGUAGE TypeSynonymInstances #-}
 
-module Data (
+module Petitions.Data (
   Petition,
   Petition'(..),
 
