@@ -1,0 +1,25 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: f3625b477d6ce6dd2547652a5cf743ff1851deee6db138d96852a2817436646b
+
+name:           petitions-data
+version:        0.0.0
+build-type:     Simple
+
+library
+  exposed-modules:
+      Data
+  other-modules:
+      Paths_petitions_data
+  hs-source-dirs:
+      src
+  ghc-options: -Wall
+  build-depends:
+      aeson
+    , base
+    , text
+  default-language: Haskell2010

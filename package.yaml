@@ -1,0 +1,13 @@
+name: petitions-data
+
+ghc-options: -Wall
+
+
+library:
+  source-dirs:
+    - src
+
+dependencies:
+  - base
+  - text
+  - aeson
